@@ -1,4 +1,4 @@
-FROM java
+FROM java:7
 RUN mkdir /usr/lib/grails
 WORKDIR /usr/lib/grails
 RUN wget http://dist.springframework.org.s3.amazonaws.com/release/GRAILS/grails-2.3.8.zip
