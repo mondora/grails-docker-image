@@ -1,4 +1,5 @@
 FROM java:7
+RUN apt-get update && apt-get install -y nano vim telnet
 RUN mkdir /usr/lib/grails
 WORKDIR /usr/lib/grails
 RUN wget http://dist.springframework.org.s3.amazonaws.com/release/GRAILS/grails-2.4.4.zip
